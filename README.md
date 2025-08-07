@@ -4,13 +4,13 @@ This project presents an end-to-end machine learning pipeline to forecast housin
 
 What’s Inside:
 
-A comprehensive walkthrough using LightGBM, XGBoost, and SARIMAX
-Exploratory Data Analysis highlighting macroeconomic trends (e.g., 2008 crash, COVID-19 boom)
-Feature engineering: lag variables, calendar features (year, quarter, month)
-Cross-validation (K-Fold) with metrics like R², MAE, RMSE, MAPE, SMAPE
-Residual diagnostics, Q-Q plots, and studentized error analysis
-Price-tier segmentation (Low, Mid, High) to combat heteroskedasticity
-6-month ahead stepwise forecasts for each U.S. region
+- A comprehensive walkthrough using LightGBM, XGBoost, and SARIMAX
+- Exploratory Data Analysis highlighting macroeconomic trends (e.g., 2008 crash, COVID-19 boom)
+- Feature engineering: lag variables, calendar features (year, quarter, month)
+- Cross-validation (K-Fold) with metrics like R², MAE, RMSE, MAPE, SMAPE
+- Residual diagnostics, Q-Q plots, and studentized error analysis
+- Price-tier segmentation (Low, Mid, High) to combat heteroskedasticity
+- 6-month ahead stepwise forecasts for each U.S. region
 
 Model Highlights:
 Trains models to predict regional home prices using historical time-series data
